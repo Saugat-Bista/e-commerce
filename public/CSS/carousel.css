@@ -1,0 +1,40 @@
+/* #slider-carousel {
+    margin-left: 30px; 
+    margin-right: 30px;
+} */
+
+.carousel-control {
+	top: 50%;
+}
+/* .carousel-inner {
+	width: 940px;
+	height: 120px;
+} */
+.carousel-control-prev, .carousel-control-next {
+    background: silver;
+    width: 20px;
+	/* color: red;
+    border: none;*/
+}
+
+.carousel-control-prev {
+    margin-left: -35px; 
+    /* color: black; */
+}
+.carousel-control-next {
+    margin-right: -35px; 
+    /* color: black; */
+}
+
+.btnfloat{
+    float: left;
+  }
+
+/* .main {
+    width: 85%;
+    height: 600px;
+    margin-top: 20px;
+    background: rgba(9, 131, 60, 0.25);
+    margin-right: auto;
+    margin-left: auto;
+} */
