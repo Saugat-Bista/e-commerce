@@ -81,3 +81,7 @@ Route::get('admin/deleteOrder/{id}', ["uses"=>"Admin\AdminProductsController@del
 Route::get('admin/editOrderForm/{id}', ["uses"=>"Admin\AdminProductsController@editOrderForm", 'as'=>'adminEditOrderForm']);
 Route::post('admin/updateOrder/{id}', ["uses"=>"Admin\AdminProductsController@updateOrder", 'as'=>'adminUpdateOrder']);
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
